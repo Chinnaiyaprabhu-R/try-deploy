@@ -12,4 +12,4 @@ jobs:
         if: always()
         with:
           github-token: ${{ github.token }}
-          webhook-uri: ${{ secrets.TEAMS_WEBHOOK_URL }}
+          webhook-uri: ${{ secrets.TEAMS_WEBHOOK_URL }} 
